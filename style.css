@@ -6,37 +6,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 #img_p {
-    background-image: url(258801-o-que-e-produtividade-na-construcao-civil-e-como-medir-esse-indice.jpg);
+    background-image: url(fundo.jpg);
     background-repeat: no-repeat no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 800px;
 }
 
+@media (max-width: 720px) {
+
+#img_p {
+    background-image: url(celular.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 700px;
+}
+    
+
+}
+
 #logo {
     width: 150px;
 }
 
+
+
 #nav {
+
     display: flex;
     justify-content: space-around;
     margin-top: 3vh;
+    color: white;
 
+}
+
+header {
+    max-width: 1900px;
+    margin: auto;
 }
 
 
 #lista {
-    display: flex;
+    
     list-style: none;
     font-family: 'Roboto', sans-serif;
-}
+    display: flex;
+}  
 
  ul li {
     margin-right: 5VH;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 720px) {
 
- 
+ #nav{
+    display: block;
+    text-align: center;
 
 }
+
+#lista {
+
+justify-content: space-around;
+    
+    
+}
+
+@media (max-width: 520px) {
+
+  ul  li {
+        margin: 0;
+    }    
+        }
+ 
+}
+
+
+.fa-brands  {
+    width: 20px;
+    
+}
+
+.fa-sharp {
+    width: 20px;
+}
+
+#t_header {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+
+}
+
+    @media (max-width: 520px) {
+
+#t_header {
+    font-size: 38px;
+}    
+    }
+
+
+
+h2 {
+    
+    margin-top: 5vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+    
+}
+
+@media (max-width: 520px) {
+
+    #s_titulo {
+        font-size: 24px;
+        margin: 0;
+        margin-top: 3vh;
+    }    
+        }
+
+
+#p_header{
+    margin-top: 3vh;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 520px) {
+
+    #p_header {
+        font-size: 18px;
+        padding: 2vh;
+        
+    }    
+        }
+a {
+    text-decoration: none;
+    
+}
+
+#botao {
+    
+    
+    width: 264px;
+    height: 43px;
+    background: #47C756;
+    border-radius: 12px;
+    color: #ffff;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 16pt;
+    
+    }
+    
+    #botao p {
+        display: flex;
+        margin: auto;
+    }
+
+   
