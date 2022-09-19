@@ -84,12 +84,12 @@ justify-content: space-around;
 
 
 .fa-brands  {
-    width: 20px;
+    margin: 1vh;
     
 }
 
 .fa-sharp {
-    width: 20px;
+    margin: 1vh;
 }
 
 #t_header {
@@ -175,3 +175,179 @@ a {
     }
 
    
+
+#texto-servicos {
+
+margin-top: 60px;
+text-align: center;
+font-size: 28px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.p-servicos {
+    padding-bottom: ;
+}
+
+    #c_servicos {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 5vh;
+ 
+    }
+
+    @media (max-width: 720px) {
+
+        #c_servicos {
+            display: inline-block;
+            align-items: center;
+        }    
+
+    #servicos {
+        text-align: center;
+        
+    }
+
+.p-servicos {
+    padding-bottom: 7vh;
+}
+
+
+            }
+ 
+ ul li {
+        list-style: none;
+ 
+    }
+ 
+    .img-servicos {
+        width: 300px;
+        
+        margin-bottom: 10px;
+    }
+
+    .p-servicos {
+        width: 300px;
+        text-align: justify;
+    }
+
+    @media (max-width:1060px) {
+
+
+        .p-servicos {
+            width: 190px;
+            
+        }
+            .img-servicos {
+                width: 195px;
+
+            }
+            
+    }
+
+    @media (max-width:750px) {
+
+
+        .p-servicos {
+            width: 300px;
+            
+        }
+            .img-servicos {
+                width: 300px;
+
+            }
+            
+    }
+
+    #sobre-nos {
+    
+        background-color: #FDCB74;
+    }
+
+    #h1-sobre{
+        margin-top: 2vh;
+    }
+ 
+  
+
+
+.texto-sobrenos {
+    margin-top: 2vh;
+    
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-bottom: 2vh;
+    
+}
+
+.p-sobre{
+    padding-top: 5vh;
+    
+}
+
+#container-sobre {
+
+    width: 1000px;
+    margin: auto;
+
+}
+
+@media (max-width:1060px) {
+    #container-sobre {
+width: 600px;
+    }
+}
+
+#botao-sobrenos {
+    
+    width: 264px;
+    height: 43px;
+    background: #47C756;
+    border-radius: 12px;
+    color: #ffff;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+#botao-sobrenos p {
+
+    display: flex;
+     margin: auto;
+}
+
+
+
+@media (max-width:720px) {
+    #container-sobre {
+max-width: 500px;
+
+    }
+.texto-sobrenos {
+    text-align: justify;
+}
+}
+
+@media (max-width:500px) {
+    #container-sobre {
+max-width: 430px;
+
+    }
+.texto-sobrenos {
+    text-align: justify;
+}
+}
+
+@media (max-width:445px) {
+    #container-sobre {
+max-width: 350px;
+
+    }
+.texto-sobrenos {
+    text-align: justify;
+}
+}
